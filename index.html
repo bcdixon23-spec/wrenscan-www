@@ -35,7 +35,7 @@
           <li><a href="/#grade"><b>Security grade</b><span>An A to F grade for every scan</span></a></li>
           <li><a href="/#how"><b>How it works</b><span>Find, check, rank, explain, fix</span></a></li>
           <li><a href="/#demo"><b>See it in action</b><span>A 42-second demo and real screens</span></a></li>
-          <li><a href="/#checks"><b>115 checks</b><span>Everything Wrenscan looks for</span></a></li>
+          <li><a href="/#checks"><b>118 checks</b><span>Everything Wrenscan looks for</span></a></li>
           <li><a href="/#privacy"><b>Your data</b><span>What stays on your PC</span></a></li>
           <li><a href="https://downloads.wrenscan.com/email-check.html"><b>Free email spoofing check</b><span>SPF and DMARC, in your browser</span></a></li>
         </ul>
@@ -95,7 +95,7 @@
       </div>
     </div>
     <div class="stats rv">
-      <div class="stat"><b class="grad" data-count="115">115</b><span>plain-English security checks</span></div>
+      <div class="stat"><b class="grad" data-count="118">118</b><span>plain-English security checks</span></div>
       <div class="stat"><b class="grad" data-count="60">60</b><span>one-click fixes, each with undo</span></div>
       <div class="stat"><b class="grad" data-count="15">15</b><span>devices per scan, free forever</span></div>
       <div class="stat"><b class="grad">0</b><span>scan data sent to us</span></div>
@@ -184,17 +184,18 @@
 
 <section class="sec alt" id="checks">
   <div class="wrap">
-    <div class="head rv"><span class="eyebrow">What it checks</span><h2>115 checks, in plain English</h2><p>Plus every known software vulnerability, ranked by what attackers are actually using (CISA's Known Exploited Vulnerabilities list and EPSS). Wrenscan never runs exploits or tries passwords against your devices.</p></div>
+    <div class="head rv"><span class="eyebrow">What it checks</span><h2>118 checks, in plain English</h2><p>Plus every known software vulnerability, ranked by what attackers are actually using (CISA's Known Exploited Vulnerabilities list and EPSS). Wrenscan never runs exploits or tries passwords against your devices.</p></div>
     <div class="chips rv" role="group" aria-label="Filter the checks">
-      <button class="chip" type="button" aria-pressed="true" data-f="all">All checks<b>115</b></button>
-      <button class="chip" type="button" aria-pressed="false" data-f="pc">On this PC<b>35</b></button>
-      <button class="chip" type="button" aria-pressed="false" data-f="net">Across your network<b>65</b></button>
+      <button class="chip" type="button" aria-pressed="true" data-f="all">All checks<b>118</b></button>
+      <button class="chip" type="button" aria-pressed="false" data-f="pc">On this PC<b>36</b></button>
+      <button class="chip" type="button" aria-pressed="false" data-f="net">Across your network<b>67</b></button>
       <button class="chip" type="button" aria-pressed="false" data-f="cloud">Email and cloud<b>15</b></button>
     </div>
     <div class="bento" id="bento">
       <div class="card wide feat rv" data-g="pc"><div class="n grad">15</div><h3>Ransomware, password theft and scams <span class="tag">New</span></h3><p>Whether ransomware and password-theft protections are switched on, plus the traces fake-CAPTCHA scams and hidden startup programs leave behind.</p><a class="link" href="/post/fake-captcha-paste-command-scam/">How the fake-CAPTCHA scam works <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a></div>
+      <div class="card wide feat rv" data-g="net"><div class="n grad">2</div><h3>Hijacked device models <span class="tag">New</span></h3><p>Tells you if your router or camera is a model the FBI says criminals are hijacking, or one with a flaw attackers are using right now. Wrenscan works it out from what the device says about itself, with no sign-in.</p></div>
       <div class="card rv" data-g="net"><div class="n grad">21</div><h3>Network services</h3><p>Open remote access, SMBv1, Telnet, exposed databases, UPnP</p></div>
-      <div class="card rv" data-g="pc"><div class="n grad">19</div><h3>Windows settings</h3><p>Firewall, BitLocker, updates, Defender, admin accounts, Remote Desktop</p></div>
+      <div class="card rv" data-g="pc"><div class="n grad">20</div><h3>Windows settings</h3><p>Firewall, BitLocker, updates, Defender, admin accounts, Remote Desktop, a browser that has fallen behind</p></div>
       <div class="card rv" data-g="net"><div class="n grad">13</div><h3>Linux</h3><p>Firewall, SSH settings and automatic updates on Linux machines</p></div>
       <div class="card rv" data-g="net"><div class="n grad">10</div><h3>Websites and admin pages</h3><p>Exposed .git and .env files, missing security headers, default pages</p></div>
       <div class="card rv" data-g="cloud"><div class="n grad">8</div><h3>Microsoft 365</h3><p>Multi-factor sign-in, too many admins, risky app approvals</p></div>
@@ -205,7 +206,7 @@
       <div class="card rv" data-g="cloud"><div class="n grad">3</div><h3>Spam and malicious sites</h3><p>Your address on spam blocklists, a PC sending email directly, DNS that doesn't block bad sites</p></div>
       <div class="card rv" data-g="net"><div class="n grad">2</div><h3>Router</h3><p>UPnP port forwards, exposed admin page</p></div>
       <div class="card rv" data-g="pc"><div class="n grad">1</div><h3>Backup <span class="tag">New</span></h3><p>If ransomware hit today, would you get your files back? Checks whether your Documents, Desktop and Pictures have a backup</p></div>
-      <div class="card wide try rv" data-g="cloud"><h3>Try one right now</h3><p>Our free email spoofing check (SPF and DMARC) runs in your browser. No sign-up, nothing sent to us.</p><a class="link" href="https://downloads.wrenscan.com/email-check.html">Check your domain free <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a></div>
+      <div class="card try full rv" data-g="cloud"><div><h3>Try one right now</h3><p>Our free email spoofing check (SPF and DMARC) runs in your browser. No sign-up, nothing sent to us.</p></div><a class="link" href="https://downloads.wrenscan.com/email-check.html">Check your domain free <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a></div>
     </div>
     <p class="after rv">Every finding says what it is, why it matters, how to fix it, and how urgent it is.<br><span class="prio"><span class="p1">Fix now</span><span class="p2">Fix this week</span><span class="p3">Plan a fix</span><span class="p4">Monitor</span></span></p>
   </div>
@@ -332,7 +333,7 @@
   <div class="wrap">
     <div class="fgrid">
       <div><a class="logo" href="/"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="22" cy="16" r="3.4" fill="#4D8BFF"/><path d="M17.5 8.2a9 9 0 0 0 0 15.6" stroke="#4D8BFF" stroke-width="3" stroke-linecap="round"/><path d="M12.4 3.9a14.5 14.5 0 0 0 0 24.2" stroke="#4D8BFF" stroke-width="3" stroke-linecap="round" opacity=".55"/></svg>wrenscan</a><p class="blurb">A security scanner for your home or small-business network that explains every problem in plain English and fixes many in one click.</p></div>
-      <div><h4>Product</h4><ul><li><a href="/#grade">Security grade</a></li><li><a href="/#how">How it works</a></li><li><a href="/#checks">115 checks</a></li><li><a href="/#pricing">Pricing</a></li><li><a href="/mac/">Wrenscan for Mac</a></li><li><a href="https://downloads.wrenscan.com/download.html">Download</a></li></ul></div>
+      <div><h4>Product</h4><ul><li><a href="/#grade">Security grade</a></li><li><a href="/#how">How it works</a></li><li><a href="/#checks">118 checks</a></li><li><a href="/#pricing">Pricing</a></li><li><a href="/mac/">Wrenscan for Mac</a></li><li><a href="https://downloads.wrenscan.com/download.html">Download</a></li></ul></div>
       <div><h4>Guides</h4><ul><li><a href="https://downloads.wrenscan.com/email-check.html">Free email spoofing check</a></li><li><a href="/post/fake-captcha-paste-command-scam/">The fake CAPTCHA scam</a></li><li><a href="/post/bitdefender-home-scanner-alternative/">Bitdefender Home Scanner is gone</a></li><li><a href="/post/wrenscan-vs-nessus-essentials/">Wrenscan vs Nessus Essentials</a></li><li><a href="/post/wrenscan-vs-fing/">Wrenscan vs Fing</a></li><li><a href="/post/see-every-device-on-your-wifi/">See every device on your Wi-Fi</a></li><li><a href="/blog/">All posts</a></li></ul></div>
       <div><h4>Company</h4><ul><li><a href="mailto:support@wrenscan.com">support@wrenscan.com</a></li><li><a href="https://downloads.wrenscan.com/eula.html">Licence agreement</a></li><li><a href="https://downloads.wrenscan.com/privacy.html">Privacy</a></li><li><a href="https://downloads.wrenscan.com/refund-policy.html">Refunds</a></li></ul></div>
     </div>

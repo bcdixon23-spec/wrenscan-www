@@ -180,9 +180,10 @@ section{position:relative}
 .bento .card{padding:24px;display:flex;flex-direction:column}
 .bento .n{font:800 40px/1 var(--head);letter-spacing:-.03em;margin-bottom:14px;align-self:flex-start}
 .bento .wide{grid-column:span 2}
+.bento .full{grid-column:1/-1}
 .bento .feat{background:linear-gradient(135deg,rgba(77,139,255,.2),rgba(62,224,255,.05) 60%),linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.012));border-color:rgba(77,139,255,.45)}
 .bento .card.dim{opacity:.22}
-.bento .try{justify-content:center;background:linear-gradient(135deg,rgba(62,224,255,.12),rgba(77,139,255,.06));border-style:dashed;border-color:rgba(62,224,255,.4)}
+.bento .try{flex-direction:row;align-items:center;justify-content:space-between;gap:16px 32px;flex-wrap:wrap;background:linear-gradient(135deg,rgba(62,224,255,.12),rgba(77,139,255,.06));border-style:dashed;border-color:rgba(62,224,255,.4)}
 .link{display:inline-flex;align-items:center;gap:6px;margin-top:12px;color:#8FB6FF;font-weight:600;font-size:15px}
 .link:hover{color:#fff}
 .link svg{width:16px;height:16px;transition:transform .15s}.link:hover svg{transform:translateX(3px)}

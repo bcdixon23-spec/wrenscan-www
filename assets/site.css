@@ -382,7 +382,11 @@ footer li a:hover{color:#fff}
 kbd{font:600 12px var(--body);padding:2px 7px;border:1px solid var(--line2);border-radius:6px;color:var(--muted)}
 
 /* ---------- blog cards ---------- */
-.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.posts{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.posts>.pcard{grid-column:span 2}
+.posts>.pcard.half{grid-column:span 3}
+.pcard.half .pimg{aspect-ratio:16/6.6}
+.pcard.half h3{font-size:22px}
 .pcard{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.012));transition:border-color .2s,transform .2s}
 .pcard:hover{border-color:rgba(77,139,255,.55);transform:translateY(-3px)}
 .pimg{display:block;aspect-ratio:16/8.4;overflow:hidden;background:#0B0F1A;border-bottom:1px solid var(--line)}
@@ -439,6 +443,8 @@ kbd{font:600 12px var(--body);padding:2px 7px;border:1px solid var(--line2);bord
 
 @media (max-width:920px){
   .posts{grid-template-columns:repeat(2,1fr)}
+  .posts>.pcard,.posts>.pcard.half{grid-column:auto}
+  .pcard.half .pimg{aspect-ratio:16/8.4}.pcard.half h3{font-size:19px}
   .maclist{grid-template-columns:repeat(2,1fr)}
   .maclist>.plus{grid-column:auto}
   .posts>.pcard:last-child:nth-child(odd):not(.feat){grid-column:1/-1}

@@ -1,3 +1,6 @@
+/* Fonts are served from our own site (fonts/), not from Google. Licence: SIL Open Font License, see fonts/OFL-*.txt */
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 700;font-display:swap;src:url(../fonts/inter-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:700 800;font-display:swap;src:url(../fonts/plus-jakarta-sans-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
 :root{
   --bg:#070A12; --bg2:#0A0E19; --panel:#0F1524; --line:rgba(148,163,184,.14); --line2:rgba(148,163,184,.24);
   --text:#EEF2FA; --muted:#9BA7BE; --soft:#C6CFE0; --brand:#4D8BFF; --brand2:#2F6BFF; --cyan:#3EE0FF; --green:#22C55E; --amber:#F5A524; --red:#F87171;
